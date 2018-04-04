@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OHRM" duration-ms="13933" started-at="2018-03-07T10:40:35Z" finished-at="2018-03-07T10:40:49Z">
+    <groups>
+    </groups>
+    <test name="smoke" duration-ms="13933" started-at="2018-03-07T10:40:35Z" finished-at="2018-03-07T10:40:49Z">
+      <class name="testng.EmpListTest">
+        <test-method status="PASS" signature="empList()[pri:0, instance:testng.EmpListTest@7cb45826]" name="empList" duration-ms="3394" started-at="2018-03-07T16:10:44Z" finished-at="2018-03-07T16:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empList -->
+      </class> <!-- testng.EmpListTest -->
+      <class name="testng.AddEmpTest">
+        <test-method status="PASS" signature="appLaunch()[pri:0, instance:testng.AddEmpTest@100224a7]" name="appLaunch" is-config="true" duration-ms="10574" started-at="2018-03-07T16:10:24Z" finished-at="2018-03-07T16:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLaunch -->
+        <test-method status="PASS" signature="appLogin()[pri:0, instance:testng.AddEmpTest@100224a7]" name="appLogin" is-config="true" duration-ms="2920" started-at="2018-03-07T16:10:35Z" finished-at="2018-03-07T16:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogin -->
+        <test-method status="PASS" signature="empAdd()[pri:0, instance:testng.AddEmpTest@100224a7]" name="empAdd" duration-ms="6592" started-at="2018-03-07T16:10:38Z" finished-at="2018-03-07T16:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empAdd -->
+        <test-method status="PASS" signature="appLogout()[pri:0, instance:testng.AddEmpTest@100224a7]" name="appLogout" is-config="true" duration-ms="966" started-at="2018-03-07T16:10:48Z" finished-at="2018-03-07T16:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogout -->
+        <test-method status="PASS" signature="appClose()[pri:0, instance:testng.AddEmpTest@100224a7]" name="appClose" is-config="true" duration-ms="746" started-at="2018-03-07T16:10:49Z" finished-at="2018-03-07T16:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+      </class> <!-- testng.AddEmpTest -->
+    </test> <!-- smoke -->
+  </suite> <!-- OHRM -->
+</testng-results>

@@ -1,0 +1,16 @@
+
+<suite name="OHRM">
+  <test name="smoke">
+    <classes>
+      
+      <class name="testng.AddEmpTest"/>
+      <class name="testng.EmpListTest"/>
+      
+      
+      
+      
+      
+      
+    </classes>
+  </test> 
+</suite>
